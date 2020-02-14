@@ -15,10 +15,11 @@ def find_max_value(array)
     highest = 0 
     if array[counter] > highest
       highest = array[counter]
+      highest
     end
     counter += 1 
   end
-      highest
+      
 end
 
 def find_min_value(array)
